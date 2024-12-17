@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        canvas {
+            background: #f1f1f1;
+            border: 1px solid black;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .caption {
+            position: absolute;
+            text-align: center;
+        }
+    </style>
+</head>
+<body onload="startGame()">
+    <br>
+    <div class="caption">
+        <i>use w,a,s,d to move</i><br>
+        <i>esc for respawn</i>
+    </div>
+</body>
+<script src="App.js"></script>
+</html>
